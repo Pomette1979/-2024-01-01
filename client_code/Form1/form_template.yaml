@@ -7,6 +7,48 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: ligne1
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'MWASIH,DQZCKC'}
+  - name: text_box_1
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'MWASIH,ESLVEA'}
+  - name: button_1
+    properties: {text: show1}
+    type: Button
+    layout_properties: {grid_position: 'MWASIH,XXMOQT'}
+    event_bindings: {click: button_1_click}
+  - name: ligne2
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'XFTKLF,YGILTP'}
+  - name: text_box_2
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'XFTKLF,JKSUOW'}
+  - name: button_2
+    properties: {text: SHOW2}
+    type: Button
+    layout_properties: {grid_position: 'XFTKLF,ARCKYT'}
+    event_bindings: {click: button_2_click}
+  - name: ligne3
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'YRBTEE,PIHSMW'}
+  - name: text_box_3
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'YRBTEE,WIWMMZ'}
+  - name: button_3
+    properties: {text: 'SHOW3
+
+        '}
+    type: Button
+    layout_properties: {grid_position: 'YRBTEE,TNTFPM'}
+    event_bindings: {click: button_3_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
