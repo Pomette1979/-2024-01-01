@@ -12,17 +12,9 @@ class Form1(Form1Template):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-   anvil.server.call_s("show1_message",self.text_box_.text)
+    anvil.server.call_s("show_message",self.text_box_.text)
     pass
 
-  def button_2_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    anvil.server.call_s("show2_message",self.text_box_.text)
-    pass
 
-  def button_3_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    anvil.server.call_s("show2_message",self.text_box_.text)
-    pass
 
 
