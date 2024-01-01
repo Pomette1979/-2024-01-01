@@ -1,7 +1,5 @@
 from ._anvil_designer import Form1Template
 from anvil import *
-import anvil.server
-
 
 class Form1(Form1Template):
  
@@ -13,9 +11,6 @@ class Form1(Form1Template):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-    anvil.server.call_s("show_message",self.text_box_.text)
-    pass
-
-
-
+    anvil.server.call_s("show_message",self.text_box_1.text)
+pass
 
